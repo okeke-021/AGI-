@@ -1,0 +1,64 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      next:
+        specifier: 15.0.3
+        version: 15.0.3
+      react:
+        specifier: 18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: 18.2.0
+        version: 18.2.0
+    devDependencies:
+      '@types/node':
+        specifier: 22.10.6
+        version: 22.10.6
+      '@types/react':
+        specifier: 18.3.12
+        version: 18.3.12
+      '@types/react-dom':
+        specifier: 18.3.1
+        version: 18.3.1
+      typescript:
+        specifier: 5.7.2
+        version: 5.7.2
+
+packages:
+
+  '@types/node@22.10.6':
+    resolution: {integrity: sha512-qKgsUwfHZV2WCWLAnVP1JqnpE6Imt0jPKHp6a5QhF6/44pZHLeRcPQYKc0xclP3ksGcJQOGNEGeQ9EawSPq6Eg==}
+    engines: {node: '>=14.0'}
+
+  '@types/react-dom@18.3.1':
+    resolution: {integrity: sha512-qYj4QyQKEsoqK1szS3WT6X0jqkP26EXImVgnN2VZ5qs/sLyfPND2C2Vwv2nMcRgQ2R2csSZL4hZ6YI1Xk0iPmg==}
+    dependencies:
+      '@types/react': 18.3.12
+
+  '@types/react@18.3.12':
+    resolution: {integrity: sha512-D2wOSq/d6Agt28q7rSI3jhU7G6aiU+DU+P2JpW6Vgt9WT7Vp1Lw6oZbArp1FvTq9kqNJESfu/MMz3z8Gq/fpOQ==}
+
+  next@15.0.3:
+    resolution: {integrity: sha512-PiWIBFue+hS9RwJgvyeDvI6nzI40s2/lB+tg1KQf5aOgJjj8hOZg0SJVBPDkAK2BpSc2lIkMGEfwVXZQ43hWyg==}
+    engines: {node: '>=18.17.0'}
+    hasBin: true
+
+  react-dom@18.2.0:
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+    peerDependencies:
+      react: ^18.2.0
+
+  react@18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+
+  typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunXERCkTUVBHuxcwRWFprOVGQdQRHWWQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
